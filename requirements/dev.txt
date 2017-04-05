@@ -1,0 +1,13 @@
+公用
+django == 1.10.6
+pymysql== 0.7.10
+pytz == 2016.10
+django-taggit == 0.22.0
+Markdown == 2.6.8
+
+外部静态文件：
+bootstrap == 3.3.7
+jquery == jquery-3.1.1.min
+
+外部环境要求：
+MySQL需要加入时区支持
