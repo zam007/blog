@@ -25,7 +25,7 @@ SECRET_KEY = 'qqjkd0(+j6h2q@0c7jf@mdyy8p56nbm8ae6_640r$e^#ouv5*n'
 DEBUG = True
 # DEBUG = False
 
-ALLOWED_HOSTS = ['blog.past123.com']
+ALLOWED_HOSTS = ['dev.blog.past123.com']
 
 # 定义站点ID
 SITE_ID = 1
