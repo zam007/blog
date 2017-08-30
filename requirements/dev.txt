@@ -8,6 +8,5 @@ Markdown == 2.6.8
 外部静态文件：
 bootstrap == 3.3.7
 jquery == jquery-3.1.1.min
-
 外部环境要求：
 MySQL需要加入时区支持
