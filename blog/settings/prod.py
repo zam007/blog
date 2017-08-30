@@ -25,7 +25,7 @@ SECRET_KEY = 'qqjkd0(+j6h2q@0c7jf@mdyy8p56nbm8ae6_640r$e^#ouv5*n'
 DEBUG = True
 # DEBUG = False
 
-ALLOWED_HOSTS = ['ftpinfo.souxw.com', '192.168.0.245']
+ALLOWED_HOSTS = ['blog.past123.com']
 
 # Application definition
 
@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'pycharm_django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'stcmsftp',
-        'USER': 'stcmsftp',
-        'PASSWORD': 'Aa123456',
-        'HOST': '192.168.0.248',
+        'NAME': 'blog',
+        'USER': 'blog',
+        'PASSWORD': 'xl-VPS-0ok',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }

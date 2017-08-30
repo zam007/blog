@@ -25,7 +25,7 @@ SECRET_KEY = 'qqjkd0(+j6h2q@0c7jf@mdyy8p56nbm8ae6_640r$e^#ouv5*n'
 DEBUG = True
 # DEBUG = False
 
-ALLOWED_HOSTS = ['ftpinfo.souxw.com', '192.168.0.245', '127.0.0.1']
+ALLOWED_HOSTS = ['blog.past123.com']
 
 # 定义站点ID
 SITE_ID = 1
@@ -90,8 +90,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'blog',
         'USER': 'blog',
-        'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
+        'PASSWORD': 'xl-VPS-0ok',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
