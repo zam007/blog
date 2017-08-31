@@ -7,7 +7,8 @@ urlpatterns = [
     url(r'^$',
         blog_views.post_list,
         name='post_list'),
-    url(r'^tag/(?P<tag_slug>[-\w]+)/$', blog_views.post_list,
+    url(r'^tag/(?P<tag_slug>[-\w]+)/$',
+        blog_views.post_list,
         name='post_list_by_tag'),
     # url(r'^$', blog_views.PostListView.as_view(), name='post_list'),
 
