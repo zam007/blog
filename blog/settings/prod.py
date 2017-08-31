@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'blog.apps.blog',
     'taggit',
     'gunicorn',  # web服务器
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 ]
 
 MIDDLEWARE = [
