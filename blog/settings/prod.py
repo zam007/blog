@@ -25,7 +25,7 @@ SECRET_KEY = 'qqjkd0(+j6h2q@0c7jf@mdyy8p56nbm8ae6_640r$e^#ouv5*n'
 DEBUG = True
 # DEBUG = False
 
-ALLOWED_HOSTS = ['blog.past123.com','127.0.0.1']
+ALLOWED_HOSTS = ['blog.past123.com','www.past123.com',''127.0.0.1']
 
 # Application definition
 
